@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.conatiner {
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    margin: 20px 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    padding-right: 30px;
+}
+
+.album {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 40%;
+    padding-top: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.button-box {
+    padding-top: 30px;
+}
+
+.btn {
+    position: relative;
+    left: 40.5%;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
